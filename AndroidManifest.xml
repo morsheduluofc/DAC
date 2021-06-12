@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ucal.example.dacF"
+    android:versionCode="1"
+    android:versionName="1.1" >
+    <supports-screens 
+        android:smallScreens="true"
+        android:normalScreens="true"
+        android:largeScreens="true"
+        android:anyDensity="true"
+        />
+     
+     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.dacF.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.dacF.Level1u"
+           android:label="DAC">
+        </activity>
+         <activity android:name="com.example.dacF.Drawing"
+           android:label="DAC">
+        </activity>
+        <activity android:name="com.example.dacF.Level2"
+           android:label="Level 2">
+        </activity>
+        <activity android:name="com.example.dacF.UploadFile"
+           android:label="Upload File">
+         </activity>
+         <activity android:name="com.example.dacF.FirstScreen"
+           android:label="Home">
+         </activity>
+         <activity android:name="com.example.dacF.Level"
+           android:label="Level 1">
+         </activity>
+         
+          <activity android:name="com.example.dacF.Confirm"
+           android:label="DAC"
+           android:theme="@android:style/Theme.Dialog">
+            
+         </activity>
+         <activity android:name="com.example.dacF.Help"
+           android:label="Help"
+           android:theme="@android:style/Theme.Dialog">
+         </activity>
+         <activity android:name="com.example.dacF.Survey"
+           android:label="Survey"
+           android:theme="@android:style/Theme.Dialog">
+         </activity>
+    </application>
+<uses-permission android:name="android.permission.INTERNET"/>
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+</manifest>

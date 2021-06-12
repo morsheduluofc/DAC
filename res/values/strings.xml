@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DACv3</string>
+    <string name="action_settings">Settings</string>
+    <string name="splash_title">Loading</string>
+    <string name="main_title">Draw A Circle</string>
+	<string name="level1_label">Play</string>
+	<string name="level2_label">Level 2</string>
+	<string name="level3_label">Level 3</string>
+	<string name="level4_label">Level 2</string>
+	<string name="send_label">Practice</string>
+	<string name="help_label">Help</string>
+	<string name="refresh_label">ClearAll</string>
+	<string name="exit_label">Exit</string>
+	<string name="help_title">Help</string>
+	<string name="help_text">
+	 DAC is a challenge-response based behaviour authentication system shows all its chanllenges and responses in game playing page.\n \n
+	 For registration and verification it has 10 and 5 rounds respectively. Every round has four challenges, first three are three random circles and last one is a flashes cirlce. 
+	 In the case of flashes cirlce, user are not allowed to start the drawing before it disappear.\n \n
+	 In Home page DAC has two modes: Practice, Play (for registration and verification).\n\n
+	 <b>Functionality of the Buttons:</b> (Home Page) \n
+	 <u>Practice:</u> If you are new, practice mode of DAC will help you to adjust with DAC\'s environment. \n\n
+	 <u>Play:</u> To start the game play (registration or verification). Choose a valid name before start the game. Functionality of all buttons of this page: \n
+	 "  " <i>Refresh:</i>For a new challenge(if you miss the clue of flashes circle).\n
+	 "  " <i>Back:</i> Go Home and send data to the server.\n\n
+	 <u>Help:</u> To know about the functionality of DAC. \n \n
+	 <u>Survery:</u> A survery to know user opinion about DAC. \n \n 
+	 <u>Exit:</u> Exit from the system.\n \n
+	
+	 
+	 To report a bug, fill free to send a mail at mdmorshedul.islam@ucalgary.ca.For more information <string name="Click Here"><a href="http://dac.cpsc.ucalgary.ca">Click Here</a></string>.\n
+	 </string>
+	</resources>

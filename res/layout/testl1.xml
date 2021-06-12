@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+
+
+    <RelativeLayout
+        android:id="@+id/item"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:background="#fff092b0" >
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="#F9F9F9"
+            android:src="@drawable/ic_launcher" />
+
+        </RelativeLayout>         
+<!--  
+         <Button
+             android:id="@+id/ClearPaint"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_alignParentBottom="true"
+             android:layout_alignParentLeft="true"
+             android:layout_weight="1"
+             android:text="ClearPaint" />
+             -->
+
+<TextView
+    android:id="@+id/textView1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#0000A5"
+    android:text=""
+    android:textColor="#FFFFFF"
+    android:textSize="18sp" />
+
+<!--
+    <Button
+        android:id="@+id/clearall_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Clear All" />
+  -->
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/back_button"
+        android:background="#D3D3D3"
+        android:textColor="#0000A5"
+        android:textSize="24sp" />
+    
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="#808080"
+        android:text=" Back "
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/refresh_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/back_button"
+        android:background="#808080"
+        android:text=" Refresh "
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>

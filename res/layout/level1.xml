@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+ <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+         android:background="#FF0000"
+        android:textColor="#FFF"
+        android:textSize="15sp"
+        android:text="" />
+
+<RelativeLayout
+        android:id="@+id/item"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:background="#fff092b0" >
+       
+   <ImageView
+       android:id="@+id/imageView1"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_alignParentTop="true"
+       android:background="#F9F9F9"
+       android:src="@drawable/ic_launcher" />
+   <TextView 
+       android:id="@+id/myImageView"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_centerInParent="true"
+       android:gravity="center"
+       android:text="Hello"
+       android:textColor="#FF0F0F"/>"
+ </RelativeLayout> 
+    <Button
+        android:id="@+id/l2next_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Refresh" />
+    <Button
+        android:id="@+id/l2clearall_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/l2back_button"
+        android:layout_toRightOf="@+id/l2next_button"
+        android:text="Clear All" />
+    <Button
+        android:id="@+id/l2back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="Back" />
+
+</RelativeLayout>

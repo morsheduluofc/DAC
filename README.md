@@ -1,1 +1,2 @@
-
+# Draw A Circle (DAC)
+DAC is a challenge-response based behavioral authentication system. It constructs a profile for each user, based on their circle drawing activity, and stores it at the server. During an authentication session, the collected user data is compared against stored profile to make an authentication decision. DAC is implemented as an app for Android user and a user can download and install it from Google Play.
